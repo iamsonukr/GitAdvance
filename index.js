@@ -20,3 +20,7 @@ function gitChanges(){
 function halloweenday(){
     console.log("We are halloween lovers")
 }
+
+function moneyDay(){
+    console.log("Print Money")
+}
