@@ -12,6 +12,10 @@ function isAbove19(){
 
 }
 
+function addMeInHell(){
+    console.log("No place there")
+}
+
 function gitChanges(){
 
 }
