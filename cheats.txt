@@ -27,6 +27,65 @@ git diff
 5> Show all commits
 git log
 
+6> Show all changes in particular commit 
+-> git log
+-> select the id of particular commit
+-> git show 43dd34
+
+7> Check which memeber has made which changes in a file
+git blame filename
+
+Files get modified -> Get to the staging area -> files get pushed
+
+-----------Rerverting----------------------------------
+Reverting is the way of moving the head from the current commit to the previous commits. After making any unsuitable changes.
+
+----METHOD ONE ------
+1> Get the all comits 
+2> Reset the code . This will immediatly reset the code to previous commit and you will loose all new commit 
+
+git log --oneline
+git reset --hard 4dfe3
+
+
+--- Method TWO-----
+1> Git log
+2> Git revert 23ds3s
+
+It will reverse all the changes made in a particular commit . 
+If a function is added it will be removed , if removed it will be added back.
+
+
+----------------------------------GitHUb-------------------------------------
+github is a central reposetory to add all the git files .
+GIthub is a server which has git installed in it.
+
+1> Add remote repo to a folder
+// origin is the name of  url of remote repo
+
+git remote add origin url
+
+2> Push the code to remote
+
+git push -u origin main
+
+git <operateion> -u <name of url> <branch>  
+
+3> Check the current name of remote repo
+git remote -version
+
+
+
+// we should maintain a clean commit history.
+Dont push all the changes in a single commit . Complete one functionality then commit.
+
+
+
+
+
+
+
+
 
 
 
