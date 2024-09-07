@@ -11,3 +11,12 @@ function sayName(){
 function isAbove19(){
 
 }
+
+function gitChanges(){
+
+}
+
+// adding halloweenday
+function halloweenday(){
+    console.log("We are halloween lovers")
+}
