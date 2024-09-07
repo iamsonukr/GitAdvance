@@ -1,13 +1,18 @@
 Git is a free and opens source distributed version control system 
 
----------GLOBAL Config-------------
+------------------------------------------------GLOBAL Config----------------------------
+
+
 git config --global user.name "Sonu Kumar"
 git config --global user.email "thesonukr@gmail.com"
 git config --global color.ui auto
 
 // these commands are not for login . These are to let the watchers know that the particular conntribution is done by this guy
 
---------- Git basics ------------------
+
+------------------------------------------------- Git basics -------------------------------------
+
+
 1 > Initialize the git ---
 git init 
 
@@ -37,7 +42,8 @@ git blame filename
 
 Files get modified -> Get to the staging area -> files get pushed
 
------------Rerverting----------------------------------
+---------------------------------------------------------- Rerverting --------------------------------------------
+
 Reverting is the way of moving the head from the current commit to the previous commits. After making any unsuitable changes.
 
 ----METHOD ONE ------
@@ -56,7 +62,8 @@ It will reverse all the changes made in a particular commit .
 If a function is added it will be removed , if removed it will be added back.
 
 
-----------------------------------GitHUb-------------------------------------
+-------------------------------------------------------------- GitHUb ------------------------------------------------
+
 github is a central reposetory to add all the git files .
 GIthub is a server which has git installed in it.
 
@@ -74,10 +81,32 @@ git <operateion> -u <name of url> <branch>
 3> Check the current name of remote repo
 git remote -version
 
+In order to push code to someone else repo you need access to ssh keys or an invitation as collaborator.
 
 
-// we should maintain a clean commit history.
-Dont push all the changes in a single commit . Complete one functionality then commit.
+----------------------------------------------------- BRANCHING----------------------------------------------------
+
+We create branches to make clean commits as if multiple people keep commiting in a single branch 
+it will get polluted and will be difficult to restore the changes.
+
+1> Create new branch 
+git branch branchName
+
+2> Show all and current branch 
+git branch
+
+3> Change the branch
+git checkout branchName
+
+
+
+
+
+
+
+
+
+
 
 
 

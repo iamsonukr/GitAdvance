@@ -29,3 +29,7 @@ function moneyDay(){
     console.log("Print Money")
 }
 
+function newFeature(){
+    
+}
+
