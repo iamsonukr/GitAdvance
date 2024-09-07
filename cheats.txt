@@ -1,0 +1,21 @@
+Git is a free and opens source distributed version control system 
+
+---------GLOBAL Config-------------
+git config --global user.name "Sonu Kumar"
+git config --global user.email "thesonukr@gmail.com"
+git config --global color.ui auto
+
+// these commands are not for login . These are to let the watchers know that the particular conntribution is done by this guy
+
+--------- Git basics ------------------
+1 > Initialize the git ---
+git init 
+
+2> Adding files ---
+All files
+git add .
+
+particular file 
+git add jinga.js
+
+
