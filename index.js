@@ -32,4 +32,7 @@ function moneyDay(){
 function newFeature(){
     
 }
+function secondFeature(){
+
+}
 
