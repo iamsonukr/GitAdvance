@@ -18,4 +18,16 @@ git add .
 particular file 
 git add jinga.js
 
+3> Stage the code to push
+git commit -m "message" 
+
+4> Showing changes made
+git diff
+
+5> Show all commits
+git log
+
+
+
+
 
