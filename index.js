@@ -28,3 +28,7 @@ function halloweenday(){
 function moneyDay(){
     console.log("Print Money")
 }
+
+function thisIsNew(){
+    
+}
