@@ -98,6 +98,16 @@ git branch
 3> Change the branch
 git checkout branchName
 
+4>In order to push the new branch in the github reposetory you need 
+git push --set-upstream  origin <branchName>
+
+5> After push the code on the repository you need to merge it with the main branch 
+git merge origin/<branchName>
+
+
+
+
+
 
 
 
